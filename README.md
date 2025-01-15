@@ -8,7 +8,7 @@
 ## Repository Contents
 
 - **`calc_possibilities.py`**  
-  This file demonstrates the distribution of probabilities after S * log(S) steps during a random walk on a plane.  
+  This file demonstrates the distribution of probabilities after $$S\cdot\log(S)$$ steps during a random walk on a plane.  
   **How to use:**
   1. Run the file in the terminal with the command:  
      ```bash
@@ -49,7 +49,7 @@ On average, within S additional steps, the target cell containing the apple will
 
 The total number of steps required by the algorithm can be approximated as:  
 
-$$S\cdot\log(S) + S \approx S*15 < 35\cdot S$$, since $$S \leqslant 10^6 $$
+$S\cdot\log(S) + S \approx S*15 < 35\cdot S$, since $S \leqslant 10^6 $
 
 
 ### Special Case: Small Fields
