@@ -15,9 +15,7 @@ def get_transition_matrix(n, m, current_matrix):
     transition_matrix = np.zeros((n, m))
 
     def get_value(i, j):
-        if 0 <= i < n and 0 <= j < m:
-            return current_matrix[i, j]
-        return 0
+        return current_matrix[(i+n)%n, (j+m)%m]
 
     for i in range(n):
         for j in range(m):
